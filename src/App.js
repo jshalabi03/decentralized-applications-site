@@ -1,11 +1,12 @@
 import Niran from "./components/Niran"
+import NavBar from "./components/NavBar/Navbar";
+import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>welcome to nfta</h1>
-        <Niran niranToggled={false} togglePicture=""/>
+        <NavBar />
       </header>
     </div>
   );
