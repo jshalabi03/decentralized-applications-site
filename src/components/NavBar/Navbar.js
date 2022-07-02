@@ -28,7 +28,6 @@ class Navbar extends Component {
                         )
                     })}
                 </ul>
-                <Button> Contact Us</Button>
             </nav>
         )
     }
