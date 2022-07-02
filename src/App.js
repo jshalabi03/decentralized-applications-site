@@ -1,6 +1,6 @@
 import Niran from "./components/Niran"
 import NavBar from "./components/NavBar/Navbar";
-import Background from "./assets/background2.mp4";
+import Background from "./assets/newvid.mp4";
 import './App.css';
 
 function App() {
