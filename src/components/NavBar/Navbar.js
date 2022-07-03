@@ -22,7 +22,7 @@ class Navbar extends Component {
                         return(
                             <li key = {index}>
                                 <a className = {item.cName} href={item.url}>
-                                {item.title}
+                                {item.icon}{item.title}
                                 </a>
                             </li>
                         )
