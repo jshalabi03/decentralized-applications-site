@@ -3,6 +3,7 @@ import { MenuItems } from "./MenuItems"
 import { Button } from "./Button"
 import './Navbar.css'
 
+
 class Navbar extends Component {
     state = { clicked: false } 
     handleClick = () => {

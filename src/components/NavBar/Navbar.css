@@ -85,14 +85,12 @@
         position: absolute;
         top: 0;
         left: 0;
-        transfrom: translate(25%, 50%);
     }
     .menu-icon {
         display: block;
         position: absolute;
         top: 0;
         right: 0;
-        transfrom: translate(-100%, 60%);
         font-size: 1.8rem;
         cursor: pointer;
     }
