@@ -10,7 +10,7 @@ function Header() {
                 position: "absolute", width: "100%", left: "50%", top: "60%", height: "100%", objectFit: "cover", transform: "translate(-50%, -50%", opacity: "1", playbackRate: "50%"}}>
                 <source src = {Background} type = "video/mp4"/>
             </video>
-            <h1>Why Decentralize?</h1>
+            <h1></h1>
         </div>
     );
 }
