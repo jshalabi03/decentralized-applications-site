@@ -2,14 +2,16 @@ import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, FadeOut, Mo
 import './Anime.css';
 function Anime() {
     return (
-        <ScrollContainer>
-            <ScrollPage page = {0}>
-                <Animator animation = {batch(Fade(-1), Move(), Sticky())}>
-                    <h1>Welcome</h1>
-                </Animator>
-            </ScrollPage>
-
+        <div className = 'page'>
+            <ScrollContainer>
+                <ScrollPage page = {0}>
+                    <Animator animation = {batch(Fade(-3), Move(), Sticky())}>
+                        <h1>Welcome</h1>
+                    </Animator>
+                </ScrollPage>
         </ScrollContainer>
+        </div>
+
     )
 }
 
