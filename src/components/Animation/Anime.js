@@ -4,12 +4,10 @@ function Anime() {
     return (
         <div className = 'page'>
             <ScrollContainer>
-                <ScrollPage page = {0}>
-                    <Animator animation = {batch(Fade(-3), Move(), Sticky())}>
-                        <h1>Welcome</h1>
-                    </Animator>
-                </ScrollPage>
-        </ScrollContainer>
+                <Animator animation = {batch(Fade(-3), Move(), Sticky())}>
+                    <h1>Welcome</h1>
+                </Animator>
+            </ScrollContainer>
         </div>
 
     )
