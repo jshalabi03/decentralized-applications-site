@@ -13,7 +13,7 @@ export const MenuItems = [
     },
     {
         title: ' Blog',
-        url: '\blog',
+        url: '\bblog',
         cName: 'nav-links',
         icon: <i class="fa-solid fa-book"></i>
     },

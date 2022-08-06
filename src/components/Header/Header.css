@@ -25,6 +25,13 @@ video {
     margin-top: -700px;
     
 }
+.typewriter { 
+    font-size: 80px;
+    margin-bottom: 500px;
+    margin-right: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
 /* position: "absolute", width: "100%", left: "50%", top: "60%", height: "100%", objectFit: "cover", transform: "translate(-50%, -50%", opacity: "1"}}>
                 <source src = {Background} type = "video/mp4"/>
             </video> */

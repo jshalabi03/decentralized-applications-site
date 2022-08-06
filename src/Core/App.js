@@ -5,6 +5,7 @@ import PageOne from "../components/Pages/PageOne/PageOne";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, FadeOut, Move, MoveIn, MoveOut, Sticky, StickyIn, StickyOut, Zoom, ZoomIn, ZoomOut } from "react-scroll-motion";
 import './App.css';
+import BlogPage from "../components/Pages/PageOne/BlogPage";
 
 
 function App() {
@@ -16,9 +17,9 @@ function App() {
           <Switch>
             <Route path = "/home">
               <Header />
-              <PageOne />
             </Route>
             <Route path = "/blog">
+              <BlogPage />
             </Route>
           </Switch>
         </div>
