@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import { MenuItems } from "./MenuItems"
 import { Button } from "./Button"
 import './Navbar.css'
+import Image from '../../Files/Images/logo.jpg';
+import Image2 from '../../Files/Images/logo2.png';
+import Image3 from '../../Files/Images/logoTransparent.png';
+
 
 
 class Navbar extends Component {
@@ -14,7 +18,8 @@ class Navbar extends Component {
     render() {
         return(
             <nav className = "NavbarItems">
-                <h1 className = "navbar-logo">Decentralized Applications<i></i></h1>
+                
+                <img src = {Image3} className = "navbar-logo"/>
                 <div className="menu-icon" onClick = {this.handleClick}>
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                 </div>

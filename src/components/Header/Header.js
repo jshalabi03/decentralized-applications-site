@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import Background from '../../Files/Videos/newvid.mp4';
+import Background2 from '../../Files/Videos/paint.mp4';
 import Typewriter from 'typewriter-effect'
 
 function Header() {
@@ -9,7 +9,7 @@ function Header() {
             <p></p>
             <video autoPlay loop muted style = {{
                 position: "absolute", width: "100%", left: "50%", top: "60%", height: "100%", objectFit: "cover", transform: "translate(-50%, -50%", opacity: "1", playbackRate: "50%"}}>
-                <source src = {Background} type = "video/mp4"/>
+                <source src = {Background2} type = "video/mp4"/>
             </video>
             <div className= 'typewriter'>
                 <Typewriter 
@@ -25,6 +25,9 @@ function Header() {
                     .start();
                   }}
                 />
+            </div>
+            <div className='button'>
+                <button> Get Started</button>
             </div>
 
         </div>

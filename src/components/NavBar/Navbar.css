@@ -6,11 +6,10 @@
     align-items: center;
     font-size: 1.2rem;
 }
-.navbar-logo {
-    color: #ffff;
-    justify-self: start;
-    margin-left: 20px;
-    cursor: pointer;
+img {
+    width: 490px;
+    height: 390px;
+    margin-right: 500px;
 }
 .fa-react {
     margin-left: 0.5rem;
@@ -35,7 +34,7 @@
 }
 
 .nav-links:hover {
-    background-color: #6d76f7;
+    background-image: linear-gradient(25deg, #960617, #b72b15, #da4710, #fd6100);
     border-radius: 4px;
     transition: all 0.2s ease-out;
 }

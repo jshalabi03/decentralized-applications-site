@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, FadeOut, Move, MoveIn, MoveOut, Sticky, StickyIn, StickyOut, Zoom, ZoomIn, ZoomOut } from "react-scroll-motion";
 import './App.css';
 import BlogPage from "../components/Pages/PageOne/BlogPage";
+import Cards from "../components/Cards /Cards";
 
 
 function App() {
@@ -19,7 +20,6 @@ function App() {
               <Header />
             </Route>
             <Route path = "/blog">
-              <BlogPage />
             </Route>
           </Switch>
         </div>
