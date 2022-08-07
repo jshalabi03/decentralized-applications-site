@@ -25,9 +25,7 @@ video {
 }
 .typewriter { 
     font-size: 80px;
-    margin-bottom: 00px;
     margin-top: 50px;
-    margin-right: 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
     color: white;
@@ -45,7 +43,7 @@ button {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
     cursor: pointer;
-    margin: 50px;
+    margin: 5px;
     
 }
 /* position: "absolute", width: "100%", left: "50%", top: "60%", height: "100%", objectFit: "cover", transform: "translate(-50%, -50%", opacity: "1"}}>

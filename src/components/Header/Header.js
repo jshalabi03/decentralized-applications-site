@@ -28,6 +28,7 @@ function Header() {
             </div>
             <div className='button'>
                 <button> Get Started</button>
+                <button> Contact Us </button>
             </div>
 
         </div>
