@@ -11,7 +11,7 @@ function App() {
         <NavBar />
         <div className="home-page">
           <Switch>
-            <Route path = "/home">
+            <Route exact path = "/">
               <Header />
             </Route>
             <Route path = "/blog">
