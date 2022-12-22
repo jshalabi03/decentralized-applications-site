@@ -14,14 +14,14 @@ function Header() {
             <div className= 'typewriter'>
                 <Typewriter 
                   onInit={(typewriter) => {
-                    typewriter.typeString("Why Decentralize?")
-                    .pauseFor(2000)
+                    typewriter.typeString("University of Illinois Urbana-Champaign")
+                    .pauseFor(1000)
                     .deleteAll()
-                    .typeString("Why Blockchain?")
-                    .pauseFor(2000)
+                    .typeString("Computer Science + Economics")
+                    .pauseFor(1000)
                     .deleteAll()
-                    .typeString("Why Web3?")
-                    .pauseFor(2000)
+                    .typeString("Kazmain Shah")
+                    .pauseFor(1000)
                     .start();
                   }}
                 />

@@ -6,19 +6,19 @@ export const MenuItems = [
         icon: <i class = {'fa-solid fa-house'}></i>
     },
     {
-        title: ' Learn',
+        title: 'Resume',
         url: '/learn',
         cName: 'nav-links',
         icon: <i class="fa-solid fa-pencil"></i>
     },
     {
-        title: ' Blog',
+        title: 'Projects',
         url: '/blog',
         cName: 'nav-links',
         icon: <i class="fa-solid fa-book"></i>
     },
     {
-        title: ' About Us',
+        title: 'Contact Me',
         url: '/about-us',
         cName: 'nav-links',
         icon: <i class="fa-solid fa-people-group"></i>

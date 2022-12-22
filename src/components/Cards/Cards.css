@@ -7,7 +7,7 @@
   display: flex;
   flex-flow: row nowrap;
   align-items: flex-start;
-  max-width: 1120px;
+  max-width: 100000px;
   width: 90%;
   margin: 5 auto;
 }

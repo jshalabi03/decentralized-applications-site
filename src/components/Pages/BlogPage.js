@@ -6,7 +6,6 @@ import './BlogPage.css';
 function BlogPage() {
   return(
     <div className='banner'>
-      <img src = {banner} className= 'bannerphoto'></img>
       <div className='articles'>
         <Cards />
       </div>
